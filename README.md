@@ -64,6 +64,9 @@ Sampling:
 ```
 python main.py --dataname [NAME_OF_DATASET] --method [NAME_OF_BASELINE_METHODS] --mode sample
 ```
+```
+python main.py --dataname beijing --method i2bflow --mode sample
+```
 
 Evaluation:
 ```
