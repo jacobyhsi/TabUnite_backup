@@ -20,7 +20,7 @@ methods = ["i2bflow", "dilflow", "oheflow", "tabflow", "i2bddpm", "dicddpm", "oh
 methods = ["i2bddpm", "oheddpm"]
 
 # Populate the dictionary with file paths
-base_path = "/voyager/projects/jacobyhsi/tabunite_census-synthetic/eval/quality/syn1/"
+base_path = "tabunite_census-synthetic/eval/quality/syn1/"
 for method in methods:
     for num_train in range(2, 3):
         for num_sample in range(1, 4):
