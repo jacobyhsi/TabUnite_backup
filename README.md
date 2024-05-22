@@ -1,5 +1,5 @@
 # TabUnite: An Efficient Encoding Framework for Tabular Data Generation
-Official Implementation of the Paper TabUnite: An Efficient Encoding Framework for Tabular Data Generation.
+Official Implementation of the Paper - TabUnite: An Efficient Encoding Framework for Tabular Data Generation.
 
 ## Usage
 
