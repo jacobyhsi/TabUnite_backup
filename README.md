@@ -56,7 +56,6 @@ Training:
 ```
 python main.py --dataname [NAME_OF_DATASET] --method [NAME_OF_BASELINE_METHODS] --mode train
 ```
-e.g.
 ```
 python main.py --dataname beijing --method i2bflow --mode train
 ```
@@ -74,7 +73,6 @@ python eval/eval_density_pwc.py --dataname [NAME_OF_DATASET] --model [METHOD_NAM
 python eval/eval_quality.py --dataname [NAME_OF_DATASET] --model [METHOD_NAME] --path [PATH_TO_SYNTHETIC_DATA]
 python eval/eval_detection.py --dataname [NAME_OF_DATASET] --model [METHOD_NAME] --path [PATH_TO_SYNTHETIC_DATA]
 ```
-e.g.
 ```
 python eval/eval_mle.py --dataname syn1 --model i2bflow --path synthetic/syn1/i2bflow.csv
 ```
