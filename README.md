@@ -1,7 +1,7 @@
 # TabUnite: An Efficient Encoding Framework for Tabular Data Generation
 Official Implementation of the Paper TabUnite: An Efficient Encoding Framework for Tabular Data Generation.
 
-## Usage
+## Enviroment
 
 Clone this repository and navigate to it in your terminal.
 
@@ -29,4 +29,11 @@ pip install category_encoders
 
 Any missing dependencies can be installed using pip. Once all the dependencies are installed, the scripts should run accordingly as follows.
 
-## Preparing Datasets
+## Datasets
+
+Baseline datasets can be downloaded as follows:
+
+```
+python download_dataset.py
+python process_dataset.py
+```
