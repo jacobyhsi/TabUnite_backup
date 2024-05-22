@@ -8,7 +8,7 @@ from sklearn.model_selection import train_test_split
 class SynthDataset():
     def __init__(self, dataname):
         self.dataname = dataname
-        self.data_path = '../tabsyn/data/census/census.csv'
+        self.data_path = '../tabunite_main/data/census/census.csv' # change to census.csv path
         self.scaler = StandardScaler()
         self.quantile_scaler = None
         self.num_size = 0
