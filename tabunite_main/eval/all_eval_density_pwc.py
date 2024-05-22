@@ -20,7 +20,7 @@ methods = ["oheddpm"]
 
 
 # Populate the dictionary with file paths
-base_path = "/voyager/projects/jacobyhsi/tabsyn_syn/eval/density/syn1/"
+base_path = "tabsyn_syn/eval/density/syn1/"
 for method in methods:
     for num_train in range(1, 2):
         for num_sample in range(1, 4):
