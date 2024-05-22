@@ -48,7 +48,7 @@ python download_dataset.py
 python process_dataset.py
 ```
 
-For the "Census Synthetic" dataset, download the census.csv dataset from the [UCI Machine Learning Repository](https://archive.ics.uci.edu/dataset/116/us+census+data+1990) where you change the .data file to .csv instead. Save it within the repository then replace the path within tabunite_census-synthetic/dataset.py.
+For the "Census Synthetic" dataset, download the census.csv dataset from the [UCI Machine Learning Repository](https://archive.ics.uci.edu/dataset/116/us+census+data+1990) where you change the .data file to .csv instead. Save it within the repository then replace the path within tabunite_census-synthetic/dataset.py. The dataname for this dataset is denoted as: syn1.
 
 ## Training, Sampling and Evaluation
 
