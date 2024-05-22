@@ -4,8 +4,11 @@ Official Implementation of the Paper - TabUnite: An Efficient Encoding Framework
 ## Usage
 
 tabunite_main: baseline experiments
+
 tabunite_census-synthetic: census synthetic dataset
+
 tabunite_syn_qual: qualitative synthetic dataset
+
 tabunite_syn_quant: quantitative synthetic dataset
 
 ## Environment
