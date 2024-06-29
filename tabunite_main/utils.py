@@ -19,14 +19,6 @@ from tabsyn.vae.main import main as train_vae
 from tabsyn.main import main as train_tabsyn
 from tabsyn.sample import main as sample_tabsyn
 
-from i2blatent_flow.vae.main import main as train_i2blatent_vae
-from i2blatent_flow.main import main as train_i2blatent
-from i2blatent_flow.sample import main as sample_i2blatent
-
-from i2blatent_diffusion.vae.main import main as train_i2blatent_vae
-from i2blatent_diffusion.main import main as train_i2blatent
-from i2blatent_diffusion.sample import main as sample_i2blatent
-
 from i2bflow.main_train import main as train_i2bflow
 from i2bflow.main_sample import main as sample_i2bflow
 
