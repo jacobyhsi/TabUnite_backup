@@ -31,6 +31,11 @@ conda install pytorch==2.0.1 torchvision==0.15.2 torchaudio==2.0.2 pytorch-cuda=
 and other dependencies:
 ```
 pip install -r requirements.txt
+
+pip install  dgl -f https://data.dgl.ai/wheels/cu117/repo.html
+
+pip install torch_geometric
+pip install pyg_lib torch_scatter torch_sparse torch_cluster torch_spline_conv -f https://data.pyg.org/whl/torch-2.0.1+cu117.html
 ```
 
 Any other missing dependencies can be installed using pip. Once all the dependencies are installed, the scripts should run accordingly.
@@ -44,13 +49,7 @@ pip install synthcity
 pip install category_encoders
 ```
 
-To run the GOGGLE baseline:
-```
-pip install  dgl -f https://data.dgl.ai/wheels/cu117/repo.html
 
-pip install torch_geometric
-pip install pyg_lib torch_scatter torch_sparse torch_cluster torch_spline_conv -f https://data.pyg.org/whl/torch-2.0.1+cu117.html
-```
 
 ## Datasets
 
