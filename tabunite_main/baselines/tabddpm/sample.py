@@ -71,7 +71,7 @@ def recover_data(syn_num, syn_cat, syn_target, info):
         for i in range(len(num_col_idx) + len(cat_col_idx) + len(target_col_idx)):
             if i in set(num_col_idx):
                 syn_df[i] = syn_num[:, idx_mapping[i]]
-            if i in set(cat_col_idx):
+            elif i in set(cat_col_idx):
                 syn_df[i] = syn_cat[:, idx_mapping[i] - len(num_col_idx)]
             else:
                 syn_df[i] = syn_target[:, idx_mapping[i] - len(num_col_idx) - len(cat_col_idx)]
