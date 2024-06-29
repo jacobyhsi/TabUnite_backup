@@ -30,7 +30,7 @@ conda install pytorch==2.0.1 torchvision==0.15.2 torchaudio==2.0.2 pytorch-cuda=
 
 and other dependencies:
 ```
-pip install requirements.txt
+pip install -r requirements.txt
 ```
 
 Any other missing dependencies can be installed using pip. Once all the dependencies are installed, the scripts should run accordingly.
