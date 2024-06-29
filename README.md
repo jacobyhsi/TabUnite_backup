@@ -41,7 +41,7 @@ Any missing dependencies can be installed using pip. Once all the dependencies a
 
 ## Datasets
 
-Baseline datasets can be downloaded as follows:
+Baseline datasets can be downloaded within the tabunite_main directory as follows:
 
 ```
 python download_dataset.py
