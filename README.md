@@ -28,6 +28,11 @@ Install pytorch via conda:
 conda install pytorch==2.0.1 torchvision==0.15.2 torchaudio==2.0.2 pytorch-cuda=11.7 -c pytorch -c nvidia
 ```
 
+and other dependencies:
+```
+pip install requirements.txt
+```
+
 For eval_quality, create the following environment:
 ```
 conda create -n tabunite_quality python=3.10
