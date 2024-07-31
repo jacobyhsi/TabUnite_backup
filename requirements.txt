@@ -20,3 +20,4 @@ openpyxl
 xgboost
 pydantic
 joblib
+rdt
