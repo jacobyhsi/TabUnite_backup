@@ -82,7 +82,7 @@ python main.py --dataname beijing --method i2bflow --mode sample
 
 Evaluation:
 ```
-python eval/eval_mle.py --dataname [NAME_OF_DATASET] --method [NAME_OF_BASELINE_METHODS] --path [PATH_TO_SAVE]
+python eval/eval_mle.py --dataname [NAME_OF_DATASET] --method [NAME_OF_BASELINE_METHODS] --path [PATH_TO_SYNTHETIC_DATA]
 python eval/eval_density_cde.py --dataname [NAME_OF_DATASET] --model [METHOD_NAME] --path [PATH_TO_SYNTHETIC_DATA]
 python eval/eval_density_pwc.py --dataname [NAME_OF_DATASET] --model [METHOD_NAME] --path [PATH_TO_SYNTHETIC_DATA]
 python eval/eval_quality.py --dataname [NAME_OF_DATASET] --model [METHOD_NAME] --path [PATH_TO_SYNTHETIC_DATA]
