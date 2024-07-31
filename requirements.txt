@@ -19,5 +19,3 @@ rdt
 openpyxl
 xgboost
 pydantic
-joblib
-rdt
