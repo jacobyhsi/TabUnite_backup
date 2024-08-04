@@ -50,6 +50,9 @@ pip install category_encoders
 pip install tomli
 pip install tomli_w
 pip install zero
+pip install scipy
+pip install click==8.1.7
+pip install scipy==1.12.0
 ```
 
 
