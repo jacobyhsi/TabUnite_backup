@@ -47,6 +47,9 @@ conda activate tabunite_quality
 
 pip install synthcity
 pip install category_encoders
+pip install tomli
+pip install tomli_w
+pip install zero
 ```
 
 
